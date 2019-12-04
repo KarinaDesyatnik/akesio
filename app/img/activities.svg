@@ -1,0 +1,13 @@
+<svg id="activities" xmlns="http://www.w3.org/2000/svg" width="43.976" height="41.186" viewBox="0 0 43.976 41.186">
+  <g id="Group_7433" data-name="Group 7433" transform="translate(12.791 9.648)">
+    <g id="Group_7431" data-name="Group 7431" transform="translate(8.653)">
+      <rect id="Rectangle_4837" data-name="Rectangle 4837" width="1.082" height="18.388"/>
+    </g>
+    <g id="Group_7432" data-name="Group 7432" transform="translate(0 8.653)">
+      <rect id="Rectangle_4838" data-name="Rectangle 4838" width="18.388" height="1.082"/>
+    </g>
+  </g>
+  <g id="Groupe_7435" data-name="Groupe 7435">
+    <path id="Tracé_6402" data-name="Tracé 6402" d="M267.75,2047.382a13.366,13.366,0,0,0-9.593,3.962,13.625,13.625,0,0,0,0,19.186l18.039,18.039,18.039-18.039a13.625,13.625,0,0,0,0-19.186,13.442,13.442,0,0,0-18.039-.781A13.7,13.7,0,0,0,267.75,2047.382Zm0,3.233a10.219,10.219,0,0,1,7.3,3.023l1.147,1.146,1.147-1.146a10.323,10.323,0,0,1,14.6,14.6h0l-15.748,15.748-15.748-15.748a10.322,10.322,0,0,1,7.3-17.623Z" transform="translate(-254.208 -2047.382)" fill="#7f3f8f"/>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="white-lock" transform="translate(0.476)">
+    <rect id="Rectangle_118" data-name="Rectangle 118" width="48" height="48" transform="translate(-0.476)" fill="none"/>
+    <path id="Path_49" data-name="Path 49" d="M20.776,23.744A5.936,5.936,0,1,1,14.84,29.68,5.953,5.953,0,0,1,20.776,23.744Zm0-17.808a5.953,5.953,0,0,0-5.936,5.936H26.712A5.953,5.953,0,0,0,20.776,5.936Zm14.84,41.552H5.936A5.953,5.953,0,0,1,0,41.552V17.808a5.953,5.953,0,0,1,5.936-5.936H8.9a11.872,11.872,0,1,1,23.744,0h2.968a5.953,5.953,0,0,1,5.936,5.936V41.552A5.953,5.953,0,0,1,35.616,47.488Z" transform="translate(2.939)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>

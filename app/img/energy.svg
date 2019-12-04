@@ -1,0 +1,9 @@
+<svg id="energy" xmlns="http://www.w3.org/2000/svg" width="52.853" height="52.853" viewBox="0 0 52.853 52.853">
+  <g id="Group_7595" data-name="Group 7595">
+    <rect id="Rectangle_5487" data-name="Rectangle 5487" width="52.853" height="52.853" fill="none"/>
+    <g id="Group_7594" data-name="Group 7594" transform="translate(0.025 3.451)">
+      <path id="Path_4368" data-name="Path 4368" d="M37.061,43.939c-.537-4.529-1.8-11.419,13.175-26.3,1.871-1.879,3.86-4.186,1.5-8.12-1.9-2.41-4.7-2.234-6.989.224C40,14.511,36.4,21.7,27.136,21.7c-7.826,0-12.876-8.915-18.1-14.034C6.835,5.414,3.871,2.727.84,6.261c-1.507,1.952-.9,3.97,1.369,6.29a77.407,77.407,0,0,1,9.767,13.517c4.516,7.674,5.7,11.4,4.005,17.872h21.08Z" transform="translate(-0.011 2.014)" fill="#37c6b3" fill-rule="evenodd"/>
+      <ellipse id="Ellipse_134" data-name="Ellipse 134" cx="10.275" cy="10.277" rx="10.275" ry="10.277" transform="translate(17.523)" fill="#37c6b3"/>
+    </g>
+  </g>
+</svg>

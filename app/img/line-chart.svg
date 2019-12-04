@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="268" viewBox="0 0 340 268">
+  <g id="line-chart" transform="translate(199.196 145.307)">
+    <g id="Chart" transform="translate(-192.774 -145.307)">
+      <g id="m1">
+        <path id="Path_4247" data-name="Path 4247" d="M0,225l28.795-90,5.517,3.448L57.59,153l28.795,72,28.795-65,28.795-80,28.795,91,28.795-55L230.36,62l28.795,18,28.795,40,28.8-120" transform="translate(5.274 5.307)" fill="none" stroke="#37c6b3" stroke-width="2"/>
+        <g id="Marks">
+          <circle id="Ellipse_105" data-name="Ellipse 105" cx="5" cy="5" r="5" transform="translate(-0.422 225)" fill="#f1114b"/>
+          <circle id="Ellipse_106" data-name="Ellipse 106" cx="5" cy="5" r="5" transform="translate(29.365 136.307)" fill="#f1114b"/>
+          <circle id="Ellipse_107" data-name="Ellipse 107" cx="5" cy="5" r="5" transform="translate(57.85 153.307)" fill="#f1114b"/>
+          <circle id="Ellipse_108" data-name="Ellipse 108" cx="5" cy="5" r="5" transform="translate(86.642 225.307)" fill="#f1114b"/>
+          <circle id="Ellipse_109" data-name="Ellipse 109" cx="5" cy="5" r="5" transform="translate(115.435 160.307)" fill="#f1114b"/>
+          <circle id="Ellipse_110" data-name="Ellipse 110" cx="5" cy="5" r="5" transform="translate(144.227 80.307)" fill="#f1114b"/>
+          <circle id="Ellipse_111" data-name="Ellipse 111" cx="5" cy="5" r="5" transform="translate(173.02 171.307)" fill="#f1114b"/>
+          <circle id="Ellipse_112" data-name="Ellipse 112" cx="5" cy="5" r="5" transform="translate(201.812 116.307)" fill="#f1114b"/>
+          <circle id="Ellipse_113" data-name="Ellipse 113" cx="5" cy="5" r="5" transform="translate(230.604 62.307)" fill="#f1114b"/>
+          <circle id="Ellipse_114" data-name="Ellipse 114" cx="5" cy="5" r="5" transform="translate(259.397 80.307)" fill="#f1114b"/>
+          <circle id="Ellipse_115" data-name="Ellipse 115" cx="5" cy="5" r="5" transform="translate(287.928 121.307)" fill="#f1114b"/>
+          <circle id="Ellipse_116" data-name="Ellipse 116" cx="5" cy="5" r="5" transform="translate(316.578)" fill="#f1114b"/>
+        </g>
+      </g>
+      <g id="m1-2" data-name="m1">
+        <g id="Marks-2" data-name="Marks">
+          <circle id="Ellipse_105-2" data-name="Ellipse 105" cx="5" cy="5" r="5" transform="translate(-0.422 225)" fill="#f1114b"/>
+          <circle id="Ellipse_106-2" data-name="Ellipse 106" cx="5" cy="5" r="5" transform="translate(29.365 136.307)" fill="#f1114b"/>
+          <circle id="Ellipse_107-2" data-name="Ellipse 107" cx="5" cy="5" r="5" transform="translate(57.85 153.307)" fill="#f1114b"/>
+          <circle id="Ellipse_108-2" data-name="Ellipse 108" cx="5" cy="5" r="5" transform="translate(86.642 225.307)" fill="#f1114b"/>
+          <circle id="Ellipse_109-2" data-name="Ellipse 109" cx="5" cy="5" r="5" transform="translate(115.435 160.307)" fill="#f1114b"/>
+          <circle id="Ellipse_110-2" data-name="Ellipse 110" cx="5" cy="5" r="5" transform="translate(144.227 80.307)" fill="#f1114b"/>
+          <circle id="Ellipse_111-2" data-name="Ellipse 111" cx="5" cy="5" r="5" transform="translate(173.02 171.307)" fill="#f1114b"/>
+          <circle id="Ellipse_112-2" data-name="Ellipse 112" cx="5" cy="5" r="5" transform="translate(201.812 116.307)" fill="#f1114b"/>
+          <circle id="Ellipse_113-2" data-name="Ellipse 113" cx="5" cy="5" r="5" transform="translate(230.604 62.307)" fill="#f1114b"/>
+          <circle id="Ellipse_114-2" data-name="Ellipse 114" cx="5" cy="5" r="5" transform="translate(259.397 80.307)" fill="#f1114b"/>
+          <circle id="Ellipse_115-2" data-name="Ellipse 115" cx="5" cy="5" r="5" transform="translate(287.928 121.307)" fill="#f1114b"/>
+          <circle id="Ellipse_116-2" data-name="Ellipse 116" cx="5" cy="5" r="5" transform="translate(316.578)" fill="#f1114b"/>
+        </g>
+      </g>
+    </g>
+    <g id="X_Axis_Line" data-name="X Axis Line" transform="translate(-187.774 102.693)">
+      <line id="Line_3" data-name="Line 3" x2="317" transform="translate(-0.422)" fill="none" stroke="#d3d3d3" stroke-width="1"/>
+    </g>
+    <g id="X_Axis" data-name="X Axis" transform="translate(-197.774 108.693)">
+      <text id="Jan" transform="translate(9.578 11)" fill="#409da6" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="-10.608" y="0">Jan</tspan></text>
+      <text id="Feb" transform="translate(38.578 11)" fill="#409da6" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="-11.382" y="0">Feb</tspan></text>
+      <text id="Mar" transform="translate(66.578 11)" fill="#409da6" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="-11.676" y="0">Mar</tspan></text>
+      <text id="Apr" transform="translate(94.578 11)" fill="#409da6" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="-10.776" y="0">Apr</tspan></text>
+      <text id="May" transform="translate(124.578 11)" fill="#409da6" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="-12.462" y="0">May</tspan></text>
+      <text id="Jun" transform="translate(153.578 11)" fill="#409da6" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="-11.106" y="0">Jun</tspan></text>
+      <text id="Jul" transform="translate(180.578 11)" fill="#409da6" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="-8.658" y="0">Jul</tspan></text>
+      <text id="Aug" transform="translate(207.578 11)" fill="#409da6" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="-12.396" y="0">Aug</tspan></text>
+      <text id="Sep" transform="translate(238.578 11)" fill="#409da6" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="-11.382" y="0">Sep</tspan></text>
+      <text id="Oct" transform="translate(267.578 11)" fill="#409da6" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="-10.884" y="0">Oct</tspan></text>
+      <text id="Nov" transform="translate(295.578 11)" fill="#409da6" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="-11.802" y="0">Nov</tspan></text>
+      <text id="Dec" transform="translate(326.578 11)" fill="#409da6" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="-11.958" y="0">Dec</tspan></text>
+    </g>
+  </g>
+</svg>

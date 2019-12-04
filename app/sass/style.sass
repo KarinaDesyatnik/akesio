@@ -1,0 +1,1388 @@
+@import "vars"
+@import "fonts"
+
+body 
+	font-size: 14px
+	font-family: $mont
+	font-weight: 400
+	margin: 0
+	color: #000
+ul 
+	list-style: none
+	padding-left: 0
+a 
+	text-decoration: none		
+button 
+	border: none
+	display: block
+	outline: none
+input 
+	display: block
+	margin: 0 auto 
+	padding: 18px 
+	border-radius: 50px
+	width: 301px
+	max-width: 100%
+	border: 1px solid $grey-color
+	padding-left: 30px
+	outline: none
+	box-sizing: border-box
+input::-webkit-input-placeholder
+	color: #000
+input::-moz-placeholder
+	color: #000
+.prompt
+	font-size: 12px 
+	color: $red-color
+	font-weight: 700
+	font-style: italic
+	line-height: 15px
+	background: #fff 
+	padding: 5px 10px
+.container 
+	max-width: 1280px
+	width: 100%
+	margin: 0 auto
+	background: url('../img/background.svg')
+	min-height: 100vh
+.btn 
+	margin: 0 auto
+	width: 230px
+	max-width: 80%
+	padding: 19px
+	border-radius: 50px
+	text-align: center
+	a 
+		padding: 19px
+		font-size: 20px 
+		text-transform: uppercase
+		color: #fff
+.pink 
+	background-color: $red-color
+.aqua 
+	background: $green-color
+.headline
+	font-size: 27px
+	font-weight: 700
+	color: $red-color
+	text-transform: uppercase
+	max-width: 210px
+.page-title
+	display: flex 
+	justify-content: center
+	align-items: center
+	margin-bottom: 30px
+
+	span
+		background: $red-color
+		padding: 8px 38px
+		border-radius: 50px
+		color: #fff
+		font-size: 16px 
+		font-weight: 700
+		min-width: 302px
+		text-transform: uppercase
+		box-sizing: border-box
+		text-align: center
+.page-title-roadmap
+	span 
+		min-width: auto 
+
+.text 
+	font-size: 16px 
+	font-weight: 700
+
+.logo 
+	margin-bottom: 18px
+.header 
+	background: url('../img/cloud.svg')
+	min-width: 100%
+	min-height: 450px
+	background-position: 50% 100%
+	background-size: cover
+	background-repeat: no-repeat
+	background-size: 130%
+	display: flex 
+	display: flex 
+	justify-content: center 
+	align-items: center
+	flex-direction: column 
+	text-align: center
+	
+.title		
+	font-size: 24px 
+	max-width: 304px
+	color: $red-color 
+	line-height: 29px
+	text-align: center
+	display: block 
+	margin: 0 auto
+		
+.content
+	padding-bottom: 50px 
+	.bear-img 
+		margin: 0 auto
+		display: block
+		margin-top: 83px
+.welcom-page 
+	padding-bottom: 0
+.login-btn 
+	margin-top: 27.8px
+.reg-btn 
+	margin-top: 18.5px
+.welcom-footer
+	text-align: center
+	margin-top: 107px
+	padding-bottom: 31px
+
+	a
+		
+		font-weight: 300
+		font-size: 15px
+		color: $grey-color	
+		background: #fff	
+.login-page
+	
+
+	.bear-img 
+		width: 74px 
+		height: 60px
+		margin-top: 6px
+.login-prompt 
+	text-align: center
+	max-width: 228px 
+	margin: 0 auto
+	margin-top: 28px
+	margin-bottom: 20px
+
+.login-input 	
+	padding-left: 42px
+.input-wrapper
+	position: relative
+	margin: 0 auto
+	margin-top: 31px
+	width: 301px
+	max-width: 95%
+.input-wrapper:before
+	position: absolute
+	top: 50%
+	left: 20px
+	transform: translate(0%, -45%)
+.login-input-wrapper:before 
+	content: url('../img/messages.svg')
+.reg-input-wrapper:before 
+	content: url('../img/lock.svg')
+
+.fogot-password
+	border: 1px solid $grey-color
+	border-radius: 50px
+	width: 168px
+	margin: 0 auto
+	background: #fff
+	a 
+		display: block
+		padding: 12px 12px
+		color: #000
+.register-input-wrapper 
+	margin-top: 8px
+
+	label 
+		padding-left: 30px
+		font-weight: 600
+		background: #fff
+		padding-top: 8px
+		padding-bottom: 4px
+
+	input 
+		margin-top: 4px
+.prompt-reg 
+	padding-left: 16px
+	min-width: 100%
+	width: 100%
+	padding-bottom: 24px
+	padding-top: 8px
+.reg-page 
+	padding-top: 15px
+.register-done
+	.text-wrapper 
+		width: 100%
+		background: #fff
+	.text 
+		text-align: center
+		max-width: 226px
+		margin: 0 auto
+		margin-top: 48px
+		
+	img 
+		margin-bottom: 156px
+.welcom-onboarding
+	padding-top: 150px 
+	
+	.text-wrapper 
+		position: relative
+		padding: 19px 5px 13px 21px 
+		background: #fff
+		font-size: 22px 
+		line-height: 36px
+		float: right
+		white-space: pre-wrap
+		box-shadow: -7px 1px 1px rgba($grey-color, 0.5)		
+		border-radius: 30px
+		max-width: 85%
+		font-family: "Handlee-Regular"
+.welcom-onboardin-container
+	min-height: 950px
+.next-step
+	background: $red-color
+	position: absolute
+	width: 100px 
+	height: 62px 
+	bottom: 0 
+	right: 0
+	box-sizing: border-box	
+	border-top-left-radius: 50px
+	border-bottom-left-radius: 50px
+	
+
+	img
+		position: absolute
+		top: 11px
+		left: 25px
+	
+.consent-item-wrapper
+	display: flex 
+	justify-content: space-between
+	padding-top: 37px 
+	padding-bottom: 200px
+	.consent-item 
+		width: 49.5%
+		background: $green-color
+		min-height: 218px
+		padding: 17px 10px
+		box-sizing: border-box
+		display: flex 
+		align-items: flex-end
+		a 
+			display: block
+			color: #fff
+			.wrapper 
+				display: flex
+				align-items: center
+				.item-text 
+					font-size: 12px
+					padding-left: 8px
+			.item-title 
+				font-weight: 600
+				font-size: 15px
+				margin-bottom: 3px
+.header-sm
+	background: url('../img/header-sm-bg.svg')
+	min-height: 280px
+	display: flex 
+	// align-items: center
+	justify-content: center
+	background-position: -22px 100%
+	background-repeat: no-repeat
+	background-size: 104%
+	z-index: 996
+	position: relative
+	.logo
+		padding-top: 45px
+		margin-bottom: 0
+.quote-page
+	.text-wrapper 
+		background: $red-color
+		color: #fff	
+		padding: 33px 10px 
+		font-size: 30px 
+		line-height: 32px
+		margin-top: 110px
+		margin-bottom: 11px
+
+		div
+			max-width: 306px 
+			margin: 0 auto	
+	.title 
+		padding-top: 40px
+		background: #fff
+	.quote-page-footer 
+		display: flex
+		justify-content: center
+		padding-top: 101px
+		position: relative
+
+
+	.text-wrapper:before
+	.green-section 
+		background: $green-color
+		min-height: 28px
+		position: relative
+	.green-section:after
+			content: ''
+			width: 0
+			height: 0
+			border-top: 55px solid $green-color
+			border-left: 80px solid transparent
+			position: absolute
+			bottom: 0 
+			left: 10%
+			transform: translate(0, 76%) rotate(-14deg)
+.roudmap-page
+.container
+	position: relative
+	background-blend-mode: multiply
+	background-image: url('../img/background.svg')
+	.white-background
+		position: absolute
+		background-color: rgba(#fff, 0.9)
+		width: 100% 
+		height: 100%
+		z-index: 0
+	.content-wrapper 
+		z-index: 1
+		position: relative
+.roadmap
+	display: flex
+	justify-content: center
+	align-items: flex-start
+	ul 
+		position: relative
+		padding: 15px 0
+		li
+			padding-left: 40px
+			position: relative
+			height: 40px
+			display: flex 
+			align-items: center
+			cursor: pointer
+		li:before, 
+			content: ''
+			width: 28px 
+			height: 27px 
+			border-radius: 50%
+			background: #fff
+			position: absolute
+			left: 0
+			display: flex 
+			align-items: center
+			justify-content: center
+			padding-top: 4px
+			box-sizing: border-box
+			border: 1px solid $red-color
+			font-size: 16px 
+			font-weight: 700
+		li.chacked:before 
+			content: url('../img/check.svg')
+			background: $green-color
+			border: 1px solid $green-color
+		li.chacked
+			font-weight: 700
+
+	ul:before
+		content: ''
+		height: 100%
+		width: 3px 
+		background: $grey-color
+		position: absolute
+		left: 12.5px
+		top: 0
+.roadmap-bear-img
+	margin-top: 142px
+.footer 
+	background: #fff 
+	min-height: 84px
+	position: fixed 
+	bottom: 0
+	z-index: 999
+	width: 100%
+	padding-bottom: 18px
+	padding: 10px 29px
+	display: flex 
+	justify-content: center
+	box-sizing: border-box
+	border-top: 3px solid #f5f5f5
+	z-index: 999
+	a 
+		color: #000
+	.row 
+		display: flex
+	.activities
+		margin-left: 17px
+		justify-content: center
+		text-align: center
+		font-size: 12px
+		font-weight: 600
+	.symptoms
+		justify-content: center
+		text-align: center
+		font-size: 12px
+		font-weight: 600
+		cursor: pointer
+
+.footer:before 
+	content: ''
+	height: 3px
+	width: 100%
+	position: absolute
+	top: -6px
+	background: #fafafa
+.page-content
+	padding-bottom: 90px
+
+.btn-menu
+	position: absolute
+	right: 30px
+	top: 25px
+	cursor: pointer
+	.row
+		width: 38px 
+		height: 6px 
+		background: $red-color
+		margin-bottom: 3.2px
+		border-radius: 6px
+	.row:last-child 
+		margin-bottom: 0
+.btn-menu.active
+	.row:nth-child(2)
+		display: none
+	.row:last-child 
+		transform: rotate(45deg)
+	.row:first-child 
+		transform: rotate(-45deg)
+		position: relative
+		top: 10px
+.menu 
+	background-image: url('../img/background.svg')
+	min-height: 100%
+	width: 100%
+	position: absolute	
+	z-index: 998
+	top: 0
+	padding: 0 16px
+	padding-top: 272px
+	box-sizing: border-box
+	display: none
+	padding-bottom: 90px
+	ul
+		display: flex
+		flex-wrap: wrap 
+		justify-content: space-between
+		li 
+			width: calc(50% - 8px)
+			background: $green-color
+			min-height: 120px
+			margin-bottom: 16px
+			padding: 23px 9px
+			box-sizing: border-box
+			
+			a 
+				color: #fff
+				display: block
+				font-size: 15px 
+				font-weight: 700
+				img 
+					margin-bottom: 14px
+				.menu-text 
+					font-size: 14px 
+					font-weight: 400
+					margin-top: 5px
+				.menu-item 
+					display: flex
+					img 
+						margin-left: 17px
+.menu.active 
+	display: block
+.popup,
+.popup-success-sent
+	position: absolute
+	height: 100%
+	width: 100%
+	background: rgba(#fff, 0.9)
+	top: 0
+	z-index: 997
+	display: none
+.popup.active,
+.popup-success-sent.active
+	display: flex
+	align-items: center
+	justify-content: center
+.header-sm.active 
+	z-index: 999
+.popup-wrapper
+	background: $green-color
+	height: 351px
+	width: 346px
+	max-width: 95%
+	border-radius: 35px
+	position: relative
+	padding: 13px
+	box-sizing: border-box
+	display: flex
+	align-items: center 
+	justify-content: center
+	flex-direction: column
+	text-align: center
+	.popup-text 
+		font-size: 16px
+		font-weight: 600 
+		color: #fff
+		margin-top: 50px
+
+.close 
+	width: 40px 
+	height: 40px 
+	border-radius: 50%
+	background: #fff
+	display: flex 
+	justify-content: center
+	align-items: center
+	top: 13px 
+	right: 13px
+	position: absolute
+	cursor: pointer
+.btn-sent,
+.btn-success-sent 
+	width: 120px
+	height: 120px
+	background: #fff
+	display: flex 
+	align-items: center 
+	justify-content: center
+	border-radius: 50%
+	border: 3px solid #51E2CF
+	font-size: 20px 
+	font-weight: 700 
+	text-transform: uppercase
+	margin-top: 30px
+	cursor: pointer
+.btn-success-sent
+	background: transparent 
+	border: 3px solid #fff
+	img 
+		height: 48px 
+		width: 57px
+.btn-popup-wrapper
+	display: flex	
+	margin-top: 43px
+.popup-btn 
+	margin: 0 10px
+	width: 120px 
+	height: 60px
+	display: flex 
+	align-items: center
+	justify-content: center
+	background: #fff 
+	border-radius: 50px
+	border: 3px solid #51E2CF
+	font-size: 27px 
+	font-weight: 700 
+	text-transform: uppercase
+.popup-btn:hover 
+	color: #fff
+	background: $red-color
+	border: 3px solid #fff
+.questionnaires-header
+	background: $green-color
+	display: flex
+	padding: 10px
+	.question-number 
+		height: 30px
+		width: 30px 
+		min-width: 30px
+		background: #fff
+		display: flex 
+		justify-content: center
+		align-items: center
+		border-radius: 50%
+		font-size: 23px
+		color: $green-color
+		margin-right: 10px
+	.question-text
+		font-size: 16px
+		font-weight: 600
+		color: #fff
+	.question-prompt
+		font-size: 12px
+		color: #fff
+.answer-options
+	display: flex 
+	justify-content: center
+	.answer-options-items
+		background: $green-color
+		padding: 15px
+		border-radius: 50px
+		margin-top: 17px
+		position: relative
+		.wrapper 
+			position: relative
+			width: 290px
+		.option 
+			height: 60px 
+			width: 60px
+			border-radius: 50%
+			background: #fff
+			margin-bottom: 14px
+			display: flex 
+			justify-content: center
+			align-items: center
+			font-size: 27px
+			cursor: pointer
+			color: #000
+			position: relative
+			z-index: 100
+		.option-text 
+			position: absolute
+			left: 0px
+			width: 290px
+			max-width: 100%
+			border: 1px solid $red-color
+			height: 60px
+			border-radius: 50px
+			z-index: -1
+			top: 0
+			background: #fff
+			
+
+			div 
+				margin-left: 75px
+
+				border-top-right-radius: 50px
+				border-bottom-right-radius: 50px
+				height: 100%
+				color: #000
+				display: flex 
+				align-items: center
+				padding-left: 19px
+				font-weight: 600
+				font-size: 16px
+				
+		.option:last-child 
+			margin-bottom: 0px
+		.option.active 
+			background: $red-color
+			color: #fff
+.ui-widget.ui-widget-content
+	height: 16px
+	width: 196px
+	margin: 0 auto
+	margin-top: 17px
+	background: rgba(#000, 0.6)
+	border: none
+	border-radius: 8px
+
+.ui-progressbar .ui-progressbar-value
+	background: $red-color
+	border: none
+	border-radius: 8px
+.questionn-wrapper
+	padding-bottom: 100px
+.progressbar
+	width: 270px
+	margin: 0 auto
+	position: relative
+	.value
+		position: absolute
+		right: 0
+		top: -2px
+		font-size: 16px 
+		color: $red-color
+.answer-options-2
+	
+
+	.answer-options-items
+		background: transparent
+
+	.answer-options-items:before 
+		content: ''
+		background: $green-color 
+		height: 100% 
+		width: 90px
+		position: absolute
+		top: 0
+		left: 0px
+		border-radius: 50px
+		z-index: 99
+.questionn-wrapper
+	textarea 
+		width: 100%
+		margin-top: 21px
+		margin-bottom: 10px
+		border: none
+		border-top: 1px solid $red-color
+		border-bottom: 1px solid $red-color
+		padding: 8px 30px
+		box-sizing: border-box
+		font-family: $mont
+		min-height: 395px
+		outline: none
+
+.congratulation 
+	background: $red-color
+	min-height: 28px
+	position: relative
+	padding: 27px 0px
+	font-size: 29px 
+	font-weight: 600
+	color: #fff
+	text-align: center
+	width: 327px
+	max-width: 96%
+	border-radius: 50px
+	margin: 0 auto
+	margin-top: 90px
+	box-sizing: border-box
+.congratulation:after
+	content: ''
+	width: 0
+	height: 0
+	border-top: 55px solid $red-color
+	border-left: 40px solid transparent
+	position: absolute
+	bottom: 0 
+	left: 20%
+	transform: translate(0, 76%) rotate(-14deg)
+.big-happy-bear
+	display: block
+	margin: 0 auto
+	margin-top: 50px
+.test-name
+	padding-left: 36px 
+	font-size: 16px
+	font-weight: 700
+	max-width: 300px 
+	margin: 0 auto
+	margin-bottom: 17px
+
+.resalt-list
+	.resalt-item
+		display: flex 
+		justify-content: space-between
+		padding-left: 15px 
+		padding-right: 15px
+		margin-bottom: 16px
+
+		.column
+			display: flex
+			.title-item 
+				margin-left: 6px
+			.value 
+				margin-right: 11px
+
+.rezalt-red-title	
+	color: #FA0000
+	font-size: 31px 
+	background: #EDEDED	
+	min-height: 102px
+	display: flex 
+	justify-content: center
+	div 
+		transform: rotate(-8deg)
+		position: relative
+		top: 28px
+.info 
+	cursor: pointer
+.popup-info
+	.popup-wrapper
+		text-align: left
+		align-items: flex-start
+		padding: 50px
+	.popup-title,
+	.ref-value  
+		font-size: 16px
+		font-weight: 600
+		color: #fff
+		text-align: left
+		position: relative
+
+	.popup-title:before 
+		content: url('../img/i2.svg')
+		position: absolute
+		left: -15px
+		top: 0
+	.popup-text 
+		font-size: 12px
+		margin-top: 12px
+		margin-bottom: 22px
+.rezalt2-red-title
+	min-height: 280px
+	align-items: center
+	display: flex
+	margin-bottom: 180px
+	div 
+		top: 0
+		transform: rotate(-13deg)
+.treatment-list
+	padding-bottom: 48px 
+	padding-left: 16px 
+	padding-right: 16px
+	max-width: 300px 
+	margin: 0 auto
+	.treatment-item
+		margin-bottom: 18px
+.treatment-page
+	img 
+		margin: 0 auto
+		display: block
+		margin-bottom: 5px
+.recomendations-list
+	display: flex 
+	justify-content: space-between
+	flex-wrap: wrap
+	padding: 0 16px 
+	margin-bottom: 16px
+
+.recomendations-item
+	width: calc(50% - 8px)
+	min-height: 120px
+	background: $green-color
+	margin-bottom: 16px
+	padding: 9px 
+	box-sizing: border-box
+	position: relative 
+	position: relative 
+	cursor: pointer
+
+	a 
+		color: #fff
+	img 
+		position: absolute 
+		top: 8px 
+		right: 10px
+	.recomendations-item-title
+		font-size: 15px 
+		font-weight: 700
+		margin-top: 50px
+		display: block
+.kit-prcess-text
+	max-width: 300px
+	text-align: center 
+	margin: 0 auto
+	font-size: 16px
+.kit-prcess-title 
+	font-weight: 700 
+	font-size: 16px 
+	text-align: center 
+	margin: 0 auto
+	max-width: 300px
+	padding: 23px 0
+.download
+	text-align: center
+	display: flex 
+	flex-direction: column 
+	align-items: center
+	
+	text-transform: uppercase
+	margin-bottom: 150px
+	a
+		color: $red-color
+		font-weight: 600
+	.download-btn
+		height: 113px 
+		width: 113px 
+		border-radius: 50%
+		background: $red-color
+		display: flex 
+		justify-content: center 
+		align-items: center
+		margin-bottom: 5px 
+
+.page-title
+	span.aqua
+		background: $green-color
+.sport-item
+	max-width: 300px 
+	margin: 10px auto
+	
+.sport-item-list
+	margin-bottom: 280px
+.lea-bear
+	margin: auto
+	margin-top: 76px
+	display: block
+.resalt-3-page
+	.lea-bear
+		padding-bottom: 150px
+
+	.next-step 
+		bottom: 60px
+	.text-wrapper
+		width: 100%
+		margin-bottom: 50px 
+		padding-bottom: 20px
+		margin-top: 30px
+		padding-top: 20px
+		background: #fff
+
+		.text 
+			max-width: 226px 
+			text-align: center 
+			margin: 0 auto
+.page-title-follw-up
+	margin-bottom: 48px
+	span
+		min-width: auto			
+.data-slider
+	max-width: 145px
+	margin: 0 auto
+	position: relative
+	text-align: center
+	.items_slider
+		padding-top: 5px
+		min-height: 29px
+		font-size: 16px 
+		font-weight: 700
+		color: $red-color
+.slider-arrows,
+.symptoms-slider-arrows 
+
+	position: absolute
+	top: 0  
+	cursor: pointer
+.slider-arrows-prev,
+.symptoms-slider-arrows-prev
+
+	left: -16px
+.slider-arrows-next,
+.symptoms-slider-arrows-next
+
+	right: -16px
+.symptoms-slider
+	max-width: 90%
+	margin: 0 auto
+	position: relative
+	text-align: center
+	.items_slider
+		padding-top: 5px
+		min-height: 29px
+		font-size: 16px 
+		font-weight: 700
+		color: $red-color
+.symptoms-slider-arrows
+	top: 50%
+	transform: translate(0%, -50%)
+.symptoms-slider_box
+	.symptoms-slider
+		.items_slider
+			display: flex 
+			justify-content: center
+			cursor: pointer
+		.wrapper 
+			display: flex
+			flex-direction: column
+			align-items: center
+		
+		.icon-wrapper 
+			height: 85px 
+			width: 85px
+			border: 3px solid $red-color
+			display: flex 
+			align-items: center 
+			justify-content: center
+			border-radius: 50%
+			background: #fff
+			svg 
+				fill: $green-color
+		.item-slider-title
+			text-transform: uppercase
+			font-size: 11px
+			font-weight: 600
+			margin-top: 4px
+		// .icon-wrapper:hover 
+		// 	background: $red-color
+		// 	svg 
+		// 		fill: #fff
+.tab-item	
+	display: none
+	flex-wrap: wrap
+	justify-content: center
+	margin-top: 50px 
+	margin-bottom: 90px
+	max-width: 100%
+	box-sizing: border-box
+.tab-item.active,
+.tab-item.active  
+	display: block
+.items_slider.active .wrapper 
+	.icon-wrapper
+		background: $red-color
+		svg 
+			fill: #fff
+.tab-content-item
+	height: 120px 
+	width: 120px
+	box-sizing: border-box
+	border: 3px solid $green-color
+	border-radius: 20px
+	margin: 8px
+	display: flex
+	justify-content: center
+	align-items: center
+	font-weight: 600 
+	color: $green-color
+.tab-item.active
+	display: flex
+.tab-content-item:hover 
+	background: $green-color
+	color: #fff
+.add-symptoms
+	display: none
+.add-symptoms.active
+	display: block
+	max-width: 204px
+	margin: 0 auto
+	margin-top: 47px
+	margin-bottom: 20px
+	
+
+.checkbox-switch
+	position: absolute
+	z-index: -1
+	opacity: 0
+	margin: 10px 0 0 20px
+	width: 40px
+.checkbox-switch + label
+	position: relative
+	padding: 0 0 0 60px
+	cursor: pointer
+.checkbox-switch + label:before
+	content: ''
+	position: absolute
+	top: -4px
+	left: 0
+	width: 40px
+	height: 24px
+	border-radius: 13px
+	background: #EDEDED
+	transition: .2s
+	border: 1px solid $red-color
+	
+.checkbox-switch + label:after
+	content: ''
+	position: absolute
+	top: -4px
+	left: 0px
+	width: 24px
+	height: 24px
+	border-radius: 50%
+	background: #707070
+	transition: .2s
+	border: 1px solid #fff
+.checkbox-switch:checked + label:before
+	border: 1px solid $green-color
+
+.checkbox-switch:checked + label:after
+	left: 16px
+	background: $green-color
+	border: 1px solid #fff
+	top: -4px
+
+.checkbox-switch:focus + label:before
+
+.add-symptoms
+
+	.item 
+		display: flex
+		
+		margin-top: 23px
+		max-width: 204px
+		justify-content: space-between
+
+
+
+		.label 
+
+	.item.active
+		.label 
+			color: $green-color
+			font-weight: 600
+.account-page
+	display: flex
+	flex-direction: column
+	align-items: center
+.uploud-avatar
+	height: 102px 
+	width: 102px 
+	background: #fff
+	border: 3px solid $red-color
+	border-radius: 50%
+	position: relative
+	cursor: pointer
+	margin-bottom: 15px
+	.avatar-img
+		border-radius: 50%
+		height: 100% 
+		width: 100%
+	.plus 
+		position: absolute
+		bottom: 4px
+		left: 50%
+		transform: translate(-50%, 0)
+	span 
+		position: absolute
+		width: 58px 
+		font-weight: 600
+		background: #fff
+		left: -75px 
+		top: 50%
+		transform: translate(0, -50%)
+input[type="file"]
+	display: none
+.account-btn
+	max-width: 305px 
+	margin: 0 auto
+	margin-bottom: 20px 
+	display: block
+	border: 1px solid $green-color
+	border-radius: 50px
+	text-align: center
+	width: 90%
+	padding: 15px 5px
+	background: #fff
+	cursor: pointer
+	a 
+		font-size: 20px 
+		text-transform: uppercase
+		color: #000
+		width: 100%
+		height: 100%
+.account-btn:hover 
+	background: $green-color
+	a 
+		color: #fff
+.profile-page-footer
+	width: 100%
+	padding-left: 43px
+	position: relative
+	min-height: 81px
+	box-sizing: border-box
+.offer-page-footer
+	display: flex 
+	justify-content: center
+	margin-top: 67px
+.user-info-wrapper
+	width: 249px 
+	margin: 0 auto
+	.item 
+		display: flex 
+		justify-content: space-between
+		align-items: center
+		margin-bottom: 15px
+		.column 
+			min-width: 85px
+		input 
+			width: 140px
+			border: 1px solid $green-color
+			padding-left: 17px
+		.user-info-title
+			font-weight: 600
+			text-align: right
+		.units 
+			font-weight: 300
+			font-size: italic
+			color: $grey-color
+			text-align: right
+
+label.custom-radio input
+	display: none
+label.custom-radio input+div
+	content: "\a"
+	width: 140px
+	height: 54px
+	border-radius: 50px
+	border: 1px solid $green-color
+	background: #fff
+	margin-bottom: 15px
+	cursor: pointer
+	display: flex 
+	align-items: center
+	padding-left: 10px 
+	padding-right: 10px
+	box-sizing: border-box
+	svg 
+		fill: #000
+		margin-right: 19px
+label.custom-radio input:checked+div
+	background: $green-color
+	color: #fff
+	svg 
+		fill: #fff
+.gender 
+	align-items: flex-start !important
+	.user-info-title
+		padding-top: 16px
+.account-page
+	.btn
+		max-width: 80%
+		width: 301px
+		a 
+			padding: 0
+			font-size: 19px
+	.register-input-wrapper
+		margin-top: 16px
+.change-email-page
+	.btn 
+		margin-top: 0
+	.change-email-text 
+		color: #52D479
+		text-align: center 
+		max-width: 250px
+		margin: 30px auto
+		font-size: 16px 
+		font-weight: 700
+		margin-bottom: 75px
+	.uploud-avatar
+		display: flex 
+		align-items: center
+		justify-content: center
+		img 
+			width: 48px 
+			height: 37px
+.change-password-page
+	.prompt
+		text-align: center
+		max-width: 100%
+		padding: 0
+		padding-top: 8px
+	.btn 
+		margin-top: 19px
+		max-width: 153px
+	.change-email-text
+		margin-top: 0
+		margin-top: 5px 
+		margin-bottom: 0
+.offer-page
+	.btn 
+		border: 1px solid $green-color
+		cursor: pointer
+		box-sizing: border-box
+		max-width: 90%
+		a
+			color: #000
+	.btn.active 
+		background: $green-color
+		a 
+			color: #fff
+.contact-info
+	text-align: center
+	img,
+	a 
+		display: block
+		margin: 0 auto
+		margin-bottom: 10px
+	.email
+		font-size: 25px 
+		margin-bottom: 27px
+	.contact-bear
+		margin-bottom: 36px
+	.site-adress
+		font-size: 23px 
+		color: $red-color
+	.small-adress
+		font-size: 15px 
+		color: #000
+	.contact-text
+		max-width: 166px 
+		font-size: 12px
+		margin: 0 auto
+.about-page
+	padding: 17px 
+	text-align: left
+	.about-title 
+		font-size: 16px 
+		font-weight: 700
+		margin-bottom: 17px
+.menu-locked-page
+	.white-background
+		background: #fff
+.footer-lock
+	.symptoms,
+	.activities 
+		filter: grayscale(100%)
+		pointer-events: none
+.lock-img
+	position: absolute
+	left: 46px 
+	top: 8px
+.error-page
+	padding-top: 173px 
+	padding-bottom: 128px
+	max-width: 320px
+	margin: 0 auto
+	position: relative
+	text-align: center
+	color: #fff
+	min-height: 510px
+	img 
+		position: absolute
+		top: 173px
+		left: 2%
+		max-width: 96%
+	.error-name,
+	.error-title,
+	.error-text
+		position: relative
+		max-width: 250px 
+		margin: 0 auto
+	.error-name
+		font-size: 65px 
+		font-weight: bold
+		margin-top: 202px
+	.error-title
+		font-size: 27px
+	.error-text
+		margin-top: 18px
+.about-page-title
+	position: relative
+.about-page-title:before 
+	content: url('../img/bear-sm.svg')
+	position: absolute
+	right: 35px 
+	bottom: 0
+	transform: translate(0%, 100%)
+.page-title-stress
+	margin-bottom: 0
+	margin-top: 15px
+
+	span
+		position: relative
+		padding: 8px 0 
+		min-width: 224px
+		z-index: 2
+.page-title-stress span:before 
+	content: url('../img/lea-bear.svg')
+	position: absolute
+	left: -12px 
+	top: 50%
+	transform: translate(-100%, -30px)
+.graph-wrapper
+	height: 265px
+	background: #EDEDED
+	padding: 5px
+	box-sizing: border-box
+	display: flex 
+	justify-content: center
+	align-items: center
+	position: relative
+	top: -20px
+	z-index: 1
+	img 
+		max-width: 100%
+.stress-page
+	.consent-item-wrapper
+		padding-bottom: 40px
+.page-title-graph
+	span:before 
+		content: ''
+.liner-graph-wrapper
+	margin-top: 13px
+	svg 
+		max-width: 90%
+		max-height: 90%
+		margin: auto
+.quote-text-wrapper,
+.quote-title
+	font-family: "Handlee-Regular"
+@import "media"
+
+
+
